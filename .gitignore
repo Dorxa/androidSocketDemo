@@ -1,0 +1,13 @@
+/.settings/
+/bin/
+/gen/
+/build/
+.classpath
+.idea/
+.gradle/
+/captures/
+*.iml
+setting_beifen.xml
+gradle.properties
+local.properties
+version.properties
