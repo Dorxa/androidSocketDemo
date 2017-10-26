@@ -94,7 +94,7 @@ public class C_OpWebSock {
             if (client == null || !client.isOpen() )
             {
                 startConning =  java.lang.System.currentTimeMillis();
-
+                Log.i(TAG, "IP : " + uri);
                 AsyncHttpGet get = new AsyncHttpGet(uri.replace("ws://", "http://").replace("wss://", "https://"));
                 get.setTimeout(timeout);
 
